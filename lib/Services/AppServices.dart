@@ -6,7 +6,7 @@ class AppServices {
   static Dio dio = Dio();
 
   static Future<AppModel> GetNews() async {
-    try { // sabaho eshta
+    try { // sabaho eshta aaaaaaaaaaaaaaaaaaaaaa
       var url = "https://newsapi.org/v2/everything?q=tesla&from=2024-10-07&sortBy=publishedAt&apiKey=02a63347dba54e61ad8312004419737a";
       Response response = await dio.get(url);
       if (response.statusCode == 200) {
